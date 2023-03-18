@@ -81,4 +81,16 @@ The models mentioned above are evaluated and a recommendation is made regarding 
 <img width="661" alt="Screen Shot 2023-03-17 at 8 54 18 PM" src="https://user-images.githubusercontent.com/112206035/226074512-6b1619e8-5417-437f-b059-f441d2d6aef5.png">
 
 ## Summary: 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+When determining credit risk sensitivity is much more important in order to make sure no risks get through the cracks. Knowing this The Easy Ensemble AdaBoost Classifier would be best for prediting credit risk and subsequent loan risk. It has a very high sensitivity rating for both high_risk and low_risk and also happens to have the highest precision rating for high_risk across all the models. 
+
+In order of effictiveness for high_risk predictions they are ranked as follows:
+- EasyEnsembleClassifer: 93% accuracy, 9% precision, 93% recall, and 16% F1 Score
+- BalancedRandomForestClassifer: 79% accuracy, 3% precision, 70% recall and 6% F1 Score
+- SMOTE: 66% accuracy, 1% precision, 63% recall and 2% F1 Score
+- SMOTEENN: 65% accuracy, 1% precision, 72% recall and 2% F1 Score
+- RandomOverSampler: 65% accuracy, 1% precision, 62% recall and 2% F1 Score
+- ClusterCentroids: 54% accuracy, 1% precision, 69% recall and 1% F1 Score
+
+Of course the precision score is on the low side for every model will likely make determining credit risk a more time consuming process as there will be many more risks to look at and/or fewer potential investment opportunities. Searching for another way to increase percision would be beneficial for improving overall loan efficiency and efficacy.
+
+It should also be noted there is a heavy skew in favor of low_risk in this data set as 99% of the data was low_risk as opposed to 1% being high_risk before cleaning. This fact may also influence these models ability to predict accurately.
