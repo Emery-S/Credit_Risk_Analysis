@@ -30,7 +30,7 @@ The models mentioned above are evaluated and a recommendation is made regarding 
 * High_risk precision is around 1% with 63% sensitivity and an f1 of 2%
 * Low_risk precision is around 100% with 69% sensitivity and an f1 of 81%
 
-<img width="653" alt="Screen Shot 2023-03-17 at 8 34 37 PM" src="https://user-images.githubusercontent.com/112206035/226073687-ac2f6377-556c-4510-ab0f-03c0d3e08ed7.png">
+<img width="660" alt="Screen Shot 2023-03-17 at 8 53 32 PM" src="https://user-images.githubusercontent.com/112206035/226074479-04481d0b-666e-4015-a793-10e603f6b383.png">
 
 ### Undersampling: ClusterCentroids
 * The balanced accuracy score is 54%
@@ -66,7 +66,7 @@ The models mentioned above are evaluated and a recommendation is made regarding 
 * High_risk precision is around 3% with 70% sensitivity and an f1 of 6%
 * Low_risk precision is around 100% with 87% sensitivity and an f1 of 93%
 
-<img width="672" alt="Screen Shot 2023-03-17 at 8 48 43 PM" src="https://user-images.githubusercontent.com/112206035/226074274-55454887-015d-41df-838f-6c2d924b8f3a.png">
+<img width="663" alt="Screen Shot 2023-03-17 at 8 53 51 PM" src="https://user-images.githubusercontent.com/112206035/226074493-287463e2-a5c5-4c13-a1a9-f8f1a20c6db1.png">
 
 ### Easy Ensemble AdaBoost Classifier
 * The balanced accuracy score is 93%
@@ -78,7 +78,7 @@ The models mentioned above are evaluated and a recommendation is made regarding 
 * High_risk precision is around 9% with 93% sensitivity and an f1 of 16%
 * Low_risk precision is around 100% with 94% sensitivity and an f1 of 97%
 
-<img width="661" alt="Screen Shot 2023-03-17 at 8 51 14 PM" src="https://user-images.githubusercontent.com/112206035/226074384-c3e4a3a2-058f-4c14-bcc2-7e12a601546f.png">
+<img width="661" alt="Screen Shot 2023-03-17 at 8 54 18 PM" src="https://user-images.githubusercontent.com/112206035/226074512-6b1619e8-5417-437f-b059-f441d2d6aef5.png">
 
 ## Summary: 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
